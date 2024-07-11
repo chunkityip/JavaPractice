@@ -1,0 +1,47 @@
+Easy Level
+
+Syntax:
+1. Question: Declare a variable of type int and name it myVariable.
+2. Question: Write a multi-line comment in Java.
+
+Data Types:
+1. Question: Declare a char variable and assign it the value 'A'.
+
+Variables:
+1. Question: Assign the value 20 to an int variable named b.
+
+Methods:
+1. Question: Write a method named greet that takes no arguments and prints "Hello, World!".
+
+
+
+Medium Level
+Data Types:
+1. Question: Declare an ArrayList of String named names and add three names to it.
+
+Variables:
+1. Question: Write a Java method to swap two integer variables without using a third variable.
+2. Question: Write a method that takes a final integer as a parameter and prints its value.
+
+Methods:
+1. Question: Write a method named multiply that takes two integers as arguments and returns their product.
+
+Syntax:
+Question: Write a for loop that prints the numbers from 1 to 10.
+
+Hard Level
+Data Types:
+
+Question: Write a method that takes an array of integers and returns the maximum value in the array.
+Variables:
+
+Question: Write a method that demonstrates the use of a static variable by counting how many times the method has been called.
+Methods:
+
+Question: Write a recursive method named fibonacci that returns the n-th Fibonacci number.
+Syntax:
+
+Question: Write a method named printDetails that is overloaded to accept either a String or an int as an argument and prints different messages based on the type of argument.
+Variables:
+
+Question: Write a method that takes a final array of integers and attempts to modify the array elements.
