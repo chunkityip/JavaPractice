@@ -1,0 +1,9 @@
+Exception Handling in OOP:
+Create a class Calculator with a method divide(int a, int b)
+that throws a custom exception DivisionByZeroException if b is zero.
+Handle this exception in a main method.
+
+Abstract Classes:
+Create an abstract class Shape with an abstract method calculateArea().
+Implement this method in subclasses Circle and Square.
+

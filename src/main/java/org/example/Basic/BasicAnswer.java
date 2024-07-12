@@ -64,20 +64,10 @@ public class BasicAnswer {
         return max;
     }
 
-    static void demonStratesCount(int num) {
-        //idk how to do so
-    }
-
     static int fibonacci (int num) {
-        int count = 0;
-        if (num <= 1) {
-            return num;
-        }
-        for (int i = 2; i < num; i++) {
-            count = fibonacci(i - 1) * fibonacci(i - 2);
-        }
+        if (num <= 1) return num;
 
-        return count;
+        return (num - 1) * (num - 2);
     }
 
 
@@ -90,8 +80,11 @@ public class BasicAnswer {
     }
 
     static int[] modifyArray(int[] num) {
-        // I don't know how , give me the answer
-        return null;
+        int[] newNum = num;
+        for (int i = 0; i < num.length; i++) {
+            num[i] *= 2;
+        }
+        return newNum;
     }
 
 
