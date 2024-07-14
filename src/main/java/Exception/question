@@ -1,0 +1,26 @@
+Easy Level Questions:
+1. Basic Exception Handling: Write a program that attempts to divide by
+zero and handles the resulting ArithmeticException.
+
+2. Multiple Exceptions: Write a program that reads a file and
+handles both FileNotFoundException and IOException.
+
+3. Finally Block: Write a program that demonstrates the use
+of a finally block in exception handling.
+
+
+Medium Level Questions:
+1. Custom Exceptions: Create a custom exception called InvalidAgeException that is thrown when an invalid age
+(e.g., a negative number) is provided.
+
+2. Chained Exceptions: Write a program that demonstrates chained exceptions by catching an exception and
+throwing another one from the catch block.
+
+3. Try-with-Resources: Write a program that uses the try-with-resources statement to manage a resource
+(e.g., a file stream) and handles any exceptions that occur.
+
+4. Exception Propagation: Write a program that demonstrates exception propagation by throwing an
+exception in a method and handling it in another method up the call stack.
+
+5. Handling Multiple Exceptions in a Single Catch Block: Write a program that handles
+multiple exception types in a single catch block (using Java 7's multi-catch feature).
