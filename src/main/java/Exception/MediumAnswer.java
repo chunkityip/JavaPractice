@@ -1,5 +1,6 @@
 package Exception;
 
+import io.github.pixee.security.BoundedLineReader;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -38,7 +39,7 @@ public class MediumAnswer {
     public void tryWithResources() {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader("nonexistentfile.txt"))) {
             String reader;
-            while ((reader = bufferedReader.readLine()) != null) {
+            while ((reader = BoundedLineReader.readLine(bufferedReader, 5_000_000)) != null) {
                 System.out.println(reader);
             }
         } catch (IOException e) {
